@@ -22,7 +22,7 @@ jobs:
     - name: Test
       run: python setup.py test 
     - name: show
-      run: ls
+      run: ls build | ls
 
   Ubuntu:    
     runs-on: 'ubuntu-latest'
