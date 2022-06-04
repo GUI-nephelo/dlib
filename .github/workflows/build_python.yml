@@ -21,6 +21,8 @@ jobs:
       run: python setup.py build
     - name: Test
       run: python setup.py test 
+    - name: show
+      run: ls
 
   Ubuntu:    
     runs-on: 'ubuntu-latest'
